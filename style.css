@@ -1,0 +1,434 @@
+@font-face{font-family:Vazir;src:url("./assets/fonts/Vazir.eot");src:url("./assets/fonts/Vazir.eot?#iefix") format('embedded-opentype'),url("./assets/fonts/Vazir.woff2") format('woff2'),url("./assets/fonts/Vazir.woff") format('woff'),url("./assets/fonts/Vazir.ttf") format('truetype');font-weight:400}
+html , .uk-h1,a, .uk-h2, .uk-h3,span, .uk-h4, .uk-h5, .uk-h6, h1, h2, h3, h4, h5, h6 ,p ,input,.uk-navbar-nav>li>a{font-family: -apple-system,BlinkMacSystemFont,"Vazir",Roboto,"Helvetica Neue",Arial,sans-serif;}
+/* Start Your Styles */
+body{
+    background-color: #eeeeee;
+}
+a{
+    color: inherit;
+}
+.mod-dotnav>li>a{
+    border-radius: 0px;
+    transform: rotate(45deg);
+    background-color: lightgray;
+    border: none;
+}
+.mod-dotnav>.uk-active>a{
+    background-color:black
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.mod-bottom{
+    position: absolute;
+    bottom: 2%;
+}
+.mod-card-body1{
+    border-radius: 25px;
+    padding: 10px;
+    color: #d45d79;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.mod-card-body2{
+    border-radius: 25px;
+    box-shadow: none;
+    margin-bottom: 30px;
+}
+.mod-card-body3{
+    border-radius: 25px;
+    padding:20px 12px ;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.mod-rating-star{
+    font-size:0.8rem;
+    width:0.5rem;
+    height:0.5rem;
+    padding: 0 0.2rem;
+    position: relative;
+    display: block;
+    float:left;
+}
+
+.mod-full-star:before {
+    color:#d45d79;
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+
+.mod-empty-star:before {
+    color:#eceff4;
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+.mod-more-btn{
+    background-color: #9ecb46;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+}
+.mod-footer{
+    background-color: #141414;
+}
+.mod-nets>li>a>div{
+    width:40px;
+    height:40px;
+    background-color: white;
+    border-radius: 40px;
+}
+.mod-text{
+    font-size: 15px;
+    color: white;
+}
+.mod-list-f>li>a{
+    color: dimgrey;
+    font-size: 14px;
+}
+.mod-search-form {
+    display:flex;
+    flex-direction:row;
+    border: 1px solid #2e2d2d;
+    background-color:transparent;
+    padding:3px;
+    width: 100%;
+    height: 40px;
+}
+
+.mod-search-input {
+    flex-grow:2;
+    border:none;
+    background-color:transparent;
+    overflow: auto;
+    color:black;
+    padding: 5px 15px;
+}
+.mod-search-button {
+    background:#2e2d2d;
+    color:white !important;
+}
+.mod-hr{
+    border-color: #2e2d2d;
+}
+.mod-triangle-down1{
+    width: 0;
+    height: 0;
+    border-left:100px solid transparent;
+    border-right:100px solid transparent;
+    border-top: 30px solid #eeeeee;
+    z-index: 2;
+  }
+  .mod-triangle-down2{
+    width: 0;
+    height: 0;
+    border-left:12px solid transparent;
+    border-right:12px solid transparent;
+    border-top: 12px solid #2e2d2d;
+  }
+.mod-copy{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin-top:30px;
+}  
+.mod-scrollup{
+    width:30px;
+    height:30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    align-content: center;
+    margin-top:30px;
+}
+.mod-footer2{
+    background-color: black;
+    height: 40px;
+}
+.mod-bottom-bg{
+    background-color: #d9be8f;
+    color: white;
+}
+
+.mod-short-hr1{
+    width:100px;
+    border: 2px solid #d45d79;
+}
+.mod-short-hr2{
+    width:80px;
+    border: 2px solid #d45d79;
+}
+
+@media screen and (min-width: 769px) {
+    .mod-margin-f{
+        margin-right: 100px;
+    }
+  }
+  .mod-title{
+    display: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media screen and (min-width: 360px) {
+    .mod-title{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mod-title:before,
+    .mod-title:after {
+        content: '';
+        border-top: 1px solid;
+        margin: 0 20px 0 0;
+        flex: 1 0 20px;
+    }
+    
+    .mod-title:after {
+        margin: 0 0 0 20px;
+    }
+    .mod-shape{
+        width: 10px;
+        height: 10px;
+        background-color: #d9be8f;
+        transform: rotate(45deg);
+        margin: 50px;
+    }
+  }
+.mod-tile1{
+  background-color: #5f94fe;
+  color: black;
+  font-size: 20px;
+}
+.mod-tile2{
+  background-color: #9dcb45;
+  color: black;
+  font-size: 20px;
+}
+.mod-tile3{
+  background-color: #fec92b;
+  color: black;
+  font-size: 20px;
+}
+.mod-field-box{
+    background-color: #eeeeee;
+    width: 100%;
+    height: 80px;
+    border-radius:8px;
+    color: black;
+    border:2px solid #d45d79;
+    transition: all ease-in 0.3s 0s;
+    -webkit-transition: all ease-in 0.3s 0s;
+}
+.mod-field-box:hover{
+    background-color: #d45d79;
+    border:2px solid #d45d79;
+    color: white;
+}
+.mod-long-hr{
+    border-color: #d45d79;
+    border: 2px solid #d45d79;
+}
+@media screen and (min-width: 960px) {
+    .uk-form-horizontal .uk-form-controls {
+        margin-right:80px;
+    }
+    .uk-form-horizontal .uk-form-label {
+        width:80px;
+    }
+    .mod-post-img{
+        width: 300px;
+        display: block;
+    }    
+    .mod-header1{
+        padding: 20px;
+    }
+    .mod-timer{
+        background-color:#9dcb45;
+        color: black;
+        font-size:20px;
+        padding: 25px;
+    }
+    .mod-timer>#days,.mod-timer>#hours,.mod-timer>#minutes,.mod-timer>#seconds{
+        color: #d45d79;
+        font-size: 40px;
+        margin-left: 5px;
+    }
+}
+@media screen and (min-width:900px) {
+    .mod-slider{
+        min-height: 500px !important;
+        width: auto;
+    }
+}
+.mod-post-img{
+    display:hidden;
+}
+.uk-input.mod-input,.uk-select.mod-select,.uk-textarea.mod-input{
+    background-color: #f8fbff;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+}
+::selection .uk-select.mod-select>option{
+    background-color: black;
+
+}
+.uk-form-label.mod-label{
+    font-size:14px;
+    font-weight: bold;
+}
+.mod-reg-btn{
+    background-color: #d45d79;
+    border-radius: 5px;
+    color: white;
+}
+.mod-reg-text{
+    color:grey;
+    font-size: 15px;
+}
+a.mod-reg-text:hover{
+    color:#d45d79 !important;
+}
+.mod-contact-t{
+    color: darkgray;
+    font-size: 14px;
+}
+.mod-paragraph{
+    font-size: 16px;
+    -moz-text-align-last:right;
+    text-align-last:right;
+    text-align: justify;
+    line-height:30px;
+    color: black;
+}
+.mod-header1{
+    background-color: transparent;
+}
+.mod-header2{
+    padding-bottom: 10px;
+}
+.uk-subnav.mod-menu>a:hover,.uk-subnav.mod-menu>a:focus {
+    color: #d45d79;
+}
+@media screen and (max-width: 960px) {
+    .mod-timer{
+        background-color:#9dcb45;
+        color: black;
+        font-size:10px;
+        padding: 25px;
+    }
+    .mod-timer>#days,.mod-timer>#hours,.mod-timer>#minutes,.mod-timer>#seconds{
+        color: #d45d79;
+        font-size:20px;
+        margin-left: 5px;
+    }
+}
+.mod-table-in{
+    background-color: white;
+    width: 100%;
+    border: none;
+}
+
+
+table {
+    /* border: 1px solid #ccc; */
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    word-wrap: break-word;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+    border: 1px solid #ddd;
+
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+  .mod-table-in{
+      background-color: white;
+      border: none;
+  }
+  .mod-pay{
+      border-radius: 5px;
+      background-color: #666666;
+      color: white;
+  }
+  .mod-table-select{
+      width:50%;
+  }
